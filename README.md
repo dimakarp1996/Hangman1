@@ -33,6 +33,6 @@ If you don't get error, all tests are passed correctly
 # How to run static code analysis:
 1)-3): the same as in 'How to play'
 
-4) run setup.py build install
+4) run python3 setup.py build install
 
 If you don't get error, all tests are passed correctly
