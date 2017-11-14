@@ -1,2 +1,2 @@
-from Hangman1 import play
+from __init__ import play
 play()
