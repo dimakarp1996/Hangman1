@@ -1,5 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 14 11:52:21 2017
 
-from Hangman1 import loss
+@author: tcs-user
+"""
+from Hangman import loss
 
 
 def test_loss():

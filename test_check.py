@@ -1,17 +1,38 @@
-from Hangman1 import check
-from Hangman1 import DICT
+#!/usr/bin/env python3 east eats seat teas
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 14 11:52:21 2017
+@author: tcs-user
+"""
+from itertools import combinations
+from Hangman import check, DICT
 
 
 def test_check():
+    game_situations = []
+    for word in DICT:
+        for i in range(4):
+            current = word
+            comb = combinations(word, i)
+            for letters in comb:
+                for letter in letters:
+                    current = current.replace(letter, '*')
+            if current not in game_situations:
+                game_situations.append(current)
+
     alph = 'abcdefghijklmnopqrstuvwxyz'
-    for i in range(5):
+    for i in range(4):
         for word in DICT:
-            for yes in alph:
-                if yes not in word:
-                    assert check(yes, '*****', word, i) == ('*****', word, i+1)
-        assert check('e', '*****', "hello", i) == ('*e***', "hello", i)
-        assert check('e', '*****', "smell", i) == ('**e**', "smell", i)
-        assert check('l', '**e**', "smell", i) == ('**ell', "smell", i)
-        assert check('e', '*****', "apple", i) == ('****e', "apple", i)
-        assert check('e', '*****', "phone", i) == ('****e', "phone", i)
-        assert check('r', '*****', "brink", i) == ('*r***', "brink", i)
+            for lett in alph:
+                for guess in game_situations:
+                    if lett not in word:
+                        assert check(lett, guess, word,
+                                     i) == (guess, word, i + 1)
+                    else:
+                        ind = word.find(lett)
+                        guess1 = guess[:ind] + lett + guess[ind + 1:]
+                        assert check(lett, guess, word,
+                                     i) == (guess1, word, i)
+
+
+test_check()
