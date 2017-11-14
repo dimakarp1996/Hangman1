@@ -1,11 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct  7 00:04:52 2017
-
-@author: DK
-"""
-from test_loss import test_loss
 from test_check import test_check
-test_loss()
+from test_loss import test_loss
+from test_gener_random import test_gener_random
+from test_get_input import test_get_input
+from test_gener_init import test_gener_init
+from test_play import test_play
+
 test_check()
+test_loss()
+test_gener_random()
+test_get_input()
+test_gener_init()
+test_play()
 print('All tests passed correctly')
