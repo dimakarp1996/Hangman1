@@ -1,5 +1,5 @@
 import mock
-from Hangman import play
+from Hangman1 import play
 
 
 def test_play():
