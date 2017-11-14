@@ -5,7 +5,7 @@ Created on Tue Nov 14 11:52:21 2017
 @author: tcs-user
 """
 from itertools import combinations
-from Hangman import check, DICT
+from Hangman1 import check, DICT
 
 
 def test_check():
