@@ -12,7 +12,7 @@ This is 'hangman' game!
 
 3)In console, open the directory where the file is
 
-4)Type python3 exec.py
+4)Type python3 Hangman1/Hangman1.py
 
 5)Have fun!
 
