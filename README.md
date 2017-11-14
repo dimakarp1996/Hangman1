@@ -1,38 +1,31 @@
 [![Build Status][travis-badge]][travis-url]
 [![Coverage][coverage-image]][coverage-url]
 
-## Hangman
+### Hangman
 This is 'hangman' game!
 
-# How to play:
+## How to install:
  
-1)Download Hangman1.py,exec.py,unit_tests.py file
+1)Download all files
 
 2)Download python3(if it isn't already installed)
 
 3)In console, open the directory where the file is
 
-4)Type python3 Hangman1.py
+4)Type python3 setup.py build install
 
-5)Have fun!
+# After installation:
 
-###
-# How to run unit tests:
+ Type python3 Hangman1.py to play
+
+ Type python3 unit_tests.py to run unit tests
  
-1)-3): the same as in 'How to play'
+ Type python3 setup.py test to run codestyle tests
 
-4)Type python3 unit_tests.py
-
-If you don't get error, all tests are passed correctly
 
 [travis-url]: https://travis-ci.org/dimakarp1996/Hangman1
 [travis-badge]: https://travis-ci.org/dimakarp1996/Hangman1.svg?branch=master
 [coverage-image]: https://codecov.io/gh/dimakarp1996/Hangman1/branch/master/graph/badge.svg
 [coverage-url]: https://codecov.io/gh/dimakarp1996/Hangman1
 
-# How to run static code analysis:
-1)-3): the same as in 'How to play'
 
-4) run python3 setup.py build install
-
-If you don't get error, all tests are passed correctly
