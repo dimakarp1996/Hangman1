@@ -2,7 +2,7 @@
 [![Coverage][coverage-image]][coverage-url]
 
 ## Hangman
-This is 'hangman' game.
+This is 'hangman' game!
 
 # How to play:
  
