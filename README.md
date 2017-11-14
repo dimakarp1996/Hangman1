@@ -29,3 +29,10 @@ If you don't get error, all tests are passed correctly
 [travis-badge]: https://travis-ci.org/dimakarp1996/Hangman1.svg?branch=master
 [coverage-image]: https://codecov.io/gh/dimakarp1996/Hangman1/branch/master/graph/badge.svg
 [coverage-url]: https://codecov.io/gh/dimakarp1996/Hangman1
+
+# How to run static code analysis:
+1)-3): the same as in 'How to play'
+
+4) run setup.py build install
+
+If you don't get error, all tests are passed correctly
