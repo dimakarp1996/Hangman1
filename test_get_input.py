@@ -6,7 +6,7 @@ Created on Tue Nov 14 11:52:21 2017
 @author: tcs-user
 """
 import mock
-from Hangman import get_input
+from Hangman1 import get_input
 
 
 def test_get_input():
