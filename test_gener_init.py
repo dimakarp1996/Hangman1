@@ -5,7 +5,7 @@ Created on Tue Nov 14 11:52:21 2017
 
 @author: tcs-user
 """
-from Hangman import gener_init, DICT
+from Hangman1 import gener_init, DICT
 
 
 def test_gener_init():
