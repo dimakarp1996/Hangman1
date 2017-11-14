@@ -6,7 +6,7 @@ This is 'hangman' game.
 
 # How to play:
  
-1)Download Hangman.py,exec.py,unit_tests.py file
+1)Download Hangman1.py,exec.py,unit_tests.py file
 
 2)Download python3(if it isn't already installed)
 
@@ -25,7 +25,7 @@ This is 'hangman' game.
 
 If you don't get error, all tests are passed correctly
 
-[travis-url]: https://travis-ci.org/dimakarp1996/Hangman
-[travis-badge]: https://travis-ci.org/dimakarp1996/Hangman.svg?branch=master
-[coverage-image]: https://codecov.io/gh/dimakarp1996/Hangman/branch/master/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/dimakarp1996/Hangman
+[travis-url]: https://travis-ci.org/dimakarp1996/Hangman1
+[travis-badge]: https://travis-ci.org/dimakarp1996/Hangman1.svg?branch=master
+[coverage-image]: https://codecov.io/gh/dimakarp1996/Hangman1/branch/master/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/dimakarp1996/Hangman1
